@@ -1,0 +1,10 @@
+{
+  "mean_reward": 9526221.2870946,
+  "std_reward": 0.0,
+  "mean_infections": 667359.7400285183,
+  "std_infections": 0.0,
+  "mean_deaths": 90.36328111681627,
+  "std_deaths": 0.0,
+  "mean_commute_ratio": 1.0729151503994492,
+  "std_commute_ratio": 0.0
+}

@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Task2 Interactive Visualization</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<style>
+body {font-family:Arial, sans-serif; margin:20px;}
+.container{display:flex; flex-wrap:wrap;}
+.chart{width:48%; margin:1%; height:360px;}
+.ctrl{margin-bottom:12px;}
+button{margin-left:8px;}
+</style>
+</head>
+<body>
+<h2>Task2 Interactive Visualization</h2>
+<div class="ctrl">
+<label>Filter:</label>
+<select id="algof">
+<option value="all">All</option>
+<option value="PPO">PPO</option>
+<option value="A2C">A2C</option>
+<option value="baseline">Baselines</option>
+</select>
+<button id="toggle-diff">Diff vs baseline_original</button>
+</div>
+<div class="container">
+  <canvas id="c1" class="chart"></canvas>
+  <canvas id="c2" class="chart"></canvas>
+  <canvas id="c3" class="chart"></canvas>
+  <canvas id="c4" class="chart"></canvas>
+</div>
+<script>
+let ALL={}, DIFF=false;
+async function load(){
+  const res = await fetch('results_data.json'); ALL = await res.json();
+  draw();
+}
+function fset(){return document.getElementById('algof').value;}
+function filt(){
+  const v=fset(); const out={};
+  for(const k in ALL){
+    if(v==='all' || (v==='PPO'&&k.startsWith('PPO')) || (v==='A2C'&&k.startsWith('A2C')) || (v==='baseline'&&k.startsWith('baseline'))){
+      out[k]=ALL[k];
+    }
+  }
+  return out;
+}
+function diff(dict){
+  const base=ALL['baseline_original']; if(!base) return dict;
+  const out={};
+  for(const k in dict){
+    if(k==='baseline_original') continue;
+    out[k]={};
+    for(const m of ['hourly_infections','hourly_deaths','hourly_commute_ratio','hourly_reward']){
+      if(!dict[k][m] || !base[m]) continue;
+      const L=Math.min(dict[k][m].length, base[m].length);
+      const arr=[]; for(let i=0;i<L;i++){
+        const b=base[m][i], r=dict[k][m][i];
+        const d=(Math.abs(b)>1e-12)?(r-b)/Math.abs(b):r;
+        arr.push(Math.max(-1,Math.min(1,d)));
+      }
+      out[k][m]=arr;
+    }
+  }
+  return out;
+}
+let g1,g2,g3,g4;
+function draw(){
+  const fd=filt(); const data = DIFF?diff(fd):fd;
+  const colors=d3.schemeCategory10;
+  const m=['hourly_infections','hourly_deaths','hourly_commute_ratio','hourly_reward'];
+  const ids=['c1','c2','c3','c4'];
+  const titles= DIFF? ['Infections (rel. diff)','Deaths (rel. diff)','Commute (rel. diff)','Reward (rel. diff)'] :
+                       ['Hourly Infections','Hourly Deaths','Hourly Commute','Hourly Reward'];
+  const charts=[g1,g2,g3,g4];
+  for(let k=0;k<4;k++){
+    const ctx=document.getElementById(ids[k]).getContext('2d');
+    if(charts[k]) charts[k].destroy();
+    const dsets=[]; let i=0;
+    for(const name in data){
+      if(!data[name][m[k]]) continue;
+      dsets.push({label:name, data:data[name][m[k]], borderColor:colors[i%10], backgroundColor:colors[i%10]+'33', fill:false, pointRadius:0, borderWidth:1.5});
+      i++;
+    }
+    charts[k]=new Chart(ctx, {type:'line', data:{labels:[...Array(dsets.length?dsets[0].data.length:0).keys()], datasets:dsets}, options:{responsive:true, plugins:{legend:{display:true}}}});
+    [g1,g2,g3,g4]=charts;
+  }
+}
+document.getElementById('algof').addEventListener('change',draw);
+document.getElementById('toggle-diff').addEventListener('click', ()=>{DIFF=!DIFF; draw();});
+load();
+</script>
+</body>
+</html>

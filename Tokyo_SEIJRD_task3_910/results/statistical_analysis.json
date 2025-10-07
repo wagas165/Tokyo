@@ -1,0 +1,1942 @@
+{
+  "significance": {
+    "PPO_exp3": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp1": {
+      "hourly_infections": {
+        "p_value": 5.434117946811751e-48,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 5.763918830642072e-56,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 2.6314910001599722e-176,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "PPO_exp14": {
+      "hourly_infections": {
+        "p_value": 0.8181752927312036,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 0.922016884514483,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.9540391943898073e-158,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp28": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "PPO_exp6": {
+      "hourly_infections": {
+        "p_value": 0.7137828194465059,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 0.8766928975145376,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.9540391943898073e-158,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "PPO_exp15": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp27": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "PPO_exp7": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "PPO_exp13": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp2": {
+      "hourly_infections": {
+        "p_value": 1.8449367637217353e-49,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.638493429788797e-52,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 2.6314910001599722e-176,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp23": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp18": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp3": {
+      "hourly_infections": {
+        "p_value": 5.1829024155939325e-51,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.3505603806581603e-47,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 2.6314910001599722e-176,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp4": {
+      "hourly_infections": {
+        "p_value": 5.4125550093683816e-52,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 7.730758826629925e-45,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 2.6314910001599722e-176,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "PPO_exp5": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.546207688292524e-28,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp30": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp32": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "PPO_exp8": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "PPO_exp16": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.546207688292524e-28,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp20": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "PPO_exp9": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp25": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "PPO_exp1": {
+      "hourly_infections": {
+        "p_value": 0.6756089417143132,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 0.8649611729077754,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.285251555796558e-54,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp6": {
+      "hourly_infections": {
+        "p_value": 2.2081618137099996e-49,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 7.1543881230996665e-53,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 2.6314910001599722e-176,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp29": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp8": {
+      "hourly_infections": {
+        "p_value": 4.68326169000853e-49,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.5065228923664418e-53,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 2.6314910001599722e-176,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "PPO_exp2": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "PPO_exp4": {
+      "hourly_infections": {
+        "p_value": 0.31092973969956894,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 0.7356042770469426,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.9540391943898073e-158,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "PPO_exp11": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp22": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "PPO_exp10": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "PPO_exp12": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp31": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp21": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp19": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp26": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp17": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp5": {
+      "hourly_infections": {
+        "p_value": 2.4716131916860127e-48,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 6.629741483272932e-56,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 2.6314910001599722e-176,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp7": {
+      "hourly_infections": {
+        "p_value": 9.784788014700976e-48,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 3.9616170927960165e-57,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 2.6314910001599722e-176,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "A2C_exp24": {
+      "hourly_infections": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "baseline_constant_80": {
+      "hourly_infections": {
+        "p_value": 1.5871364620842756e-34,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 6.124009969380793e-95,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 7.503947406758322e-175,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "baseline_constant_50": {
+      "hourly_infections": {
+        "p_value": 5.811342350497682e-37,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 3.282140296848479e-87,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 2.6314910001599722e-176,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "baseline_constant_30": {
+      "hourly_infections": {
+        "p_value": 1.7786768160038412e-40,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 6.880492547235408e-77,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 2.6314910001599722e-176,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      }
+    },
+    "baseline_no_isolation": {
+      "hourly_infections": {
+        "p_value": 5.0282485332480257e-54,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_deaths": {
+        "p_value": 2.100364485795899e-38,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_commute_ratio": {
+        "p_value": 1.0,
+        "significant": false,
+        "test_name": "Mann-Whitney U"
+      },
+      "hourly_reward": {
+        "p_value": 9.099722224203511e-178,
+        "significant": true,
+        "test_name": "Mann-Whitney U"
+      }
+    }
+  },
+  "effect_sizes": {
+    "PPO_exp3": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "A2C_exp1": {
+      "hourly_infections": {
+        "cliff_delta": 0.5427170138888889,
+        "effect_size": 0.5427170138888889,
+        "effect_magnitude": "large"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.5876909722222222,
+        "effect_size": 0.5876909722222222,
+        "effect_magnitude": "large"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.9958333333333333,
+        "effect_size": 0.9958333333333333,
+        "effect_magnitude": "large"
+      }
+    },
+    "PPO_exp14": {
+      "hourly_infections": {
+        "cliff_delta": -0.008576388888888889,
+        "effect_size": 0.008576388888888889,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": -0.003654513888888889,
+        "effect_size": 0.003654513888888889,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": -1.0,
+        "effect_size": 1.0,
+        "effect_magnitude": "large"
+      }
+    },
+    "A2C_exp28": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "PPO_exp6": {
+      "hourly_infections": {
+        "cliff_delta": -0.013680555555555555,
+        "effect_size": 0.013680555555555555,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": -0.005789930555555556,
+        "effect_size": 0.005789930555555556,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": -1.0,
+        "effect_size": 1.0,
+        "effect_magnitude": "large"
+      }
+    },
+    "PPO_exp15": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "A2C_exp27": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "PPO_exp7": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "PPO_exp13": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "A2C_exp2": {
+      "hourly_infections": {
+        "cliff_delta": 0.5512760416666667,
+        "effect_size": 0.5512760416666667,
+        "effect_magnitude": "large"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.5686458333333333,
+        "effect_size": 0.5686458333333333,
+        "effect_magnitude": "large"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.9958333333333333,
+        "effect_size": 0.9958333333333333,
+        "effect_magnitude": "large"
+      }
+    },
+    "A2C_exp23": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "A2C_exp18": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "A2C_exp3": {
+      "hourly_infections": {
+        "cliff_delta": 0.5601736111111111,
+        "effect_size": 0.5601736111111111,
+        "effect_magnitude": "large"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.540390625,
+        "effect_size": 0.540390625,
+        "effect_magnitude": "large"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.9958333333333333,
+        "effect_size": 0.9958333333333333,
+        "effect_magnitude": "large"
+      }
+    },
+    "A2C_exp4": {
+      "hourly_infections": {
+        "cliff_delta": 0.5657291666666666,
+        "effect_size": 0.5657291666666666,
+        "effect_magnitude": "large"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.5238802083333334,
+        "effect_size": 0.5238802083333334,
+        "effect_magnitude": "large"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.9958333333333333,
+        "effect_size": 0.9958333333333333,
+        "effect_magnitude": "large"
+      }
+    },
+    "PPO_exp5": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": -0.4131944444444444,
+        "effect_size": 0.4131944444444444,
+        "effect_magnitude": "medium"
+      }
+    },
+    "A2C_exp30": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "A2C_exp32": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "PPO_exp8": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "PPO_exp16": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": -0.4131944444444444,
+        "effect_size": 0.4131944444444444,
+        "effect_magnitude": "medium"
+      }
+    },
+    "A2C_exp20": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "PPO_exp9": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "A2C_exp25": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "PPO_exp1": {
+      "hourly_infections": {
+        "cliff_delta": -0.01560763888888889,
+        "effect_size": 0.01560763888888889,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": -0.006345486111111111,
+        "effect_size": 0.006345486111111111,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": -0.5803298611111111,
+        "effect_size": 0.5803298611111111,
+        "effect_magnitude": "large"
+      }
+    },
+    "A2C_exp6": {
+      "hourly_infections": {
+        "cliff_delta": 0.5508246527777778,
+        "effect_size": 0.5508246527777778,
+        "effect_magnitude": "large"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.5706597222222223,
+        "effect_size": 0.5706597222222223,
+        "effect_magnitude": "large"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.9958333333333333,
+        "effect_size": 0.9958333333333333,
+        "effect_magnitude": "large"
+      }
+    },
+    "A2C_exp29": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "A2C_exp8": {
+      "hourly_infections": {
+        "cliff_delta": 0.5489322916666667,
+        "effect_size": 0.5489322916666667,
+        "effect_magnitude": "large"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.5744270833333334,
+        "effect_size": 0.5744270833333334,
+        "effect_magnitude": "large"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.9958333333333333,
+        "effect_size": 0.9958333333333333,
+        "effect_magnitude": "large"
+      }
+    },
+    "PPO_exp2": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "PPO_exp4": {
+      "hourly_infections": {
+        "cliff_delta": -0.037786458333333335,
+        "effect_size": 0.037786458333333335,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": -0.012595486111111111,
+        "effect_size": 0.012595486111111111,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": -1.0,
+        "effect_size": 1.0,
+        "effect_magnitude": "large"
+      }
+    },
+    "PPO_exp11": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "A2C_exp22": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "PPO_exp10": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "PPO_exp12": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "A2C_exp31": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "A2C_exp21": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "A2C_exp19": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "A2C_exp26": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "A2C_exp17": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "A2C_exp5": {
+      "hourly_infections": {
+        "cliff_delta": 0.5447222222222222,
+        "effect_size": 0.5447222222222222,
+        "effect_magnitude": "large"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.5873611111111111,
+        "effect_size": 0.5873611111111111,
+        "effect_magnitude": "large"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.9958333333333333,
+        "effect_size": 0.9958333333333333,
+        "effect_magnitude": "large"
+      }
+    },
+    "A2C_exp7": {
+      "hourly_infections": {
+        "cliff_delta": 0.5412152777777778,
+        "effect_size": 0.5412152777777778,
+        "effect_magnitude": "large"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.5939670138888888,
+        "effect_size": 0.5939670138888888,
+        "effect_magnitude": "large"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.9958333333333333,
+        "effect_size": 0.9958333333333333,
+        "effect_magnitude": "large"
+      }
+    },
+    "A2C_exp24": {
+      "hourly_infections": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      }
+    },
+    "baseline_constant_80": {
+      "hourly_infections": {
+        "cliff_delta": 0.45694444444444443,
+        "effect_size": 0.45694444444444443,
+        "effect_magnitude": "medium"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.7708246527777778,
+        "effect_size": 0.7708246527777778,
+        "effect_magnitude": "large"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.9916666666666667,
+        "effect_size": 0.9916666666666667,
+        "effect_magnitude": "large"
+      }
+    },
+    "baseline_constant_50": {
+      "hourly_infections": {
+        "cliff_delta": 0.47360243055555556,
+        "effect_size": 0.47360243055555556,
+        "effect_magnitude": "medium"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.7381076388888889,
+        "effect_size": 0.7381076388888889,
+        "effect_magnitude": "large"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.9958333333333333,
+        "effect_size": 0.9958333333333333,
+        "effect_magnitude": "large"
+      }
+    },
+    "baseline_constant_30": {
+      "hourly_infections": {
+        "cliff_delta": 0.4966579861111111,
+        "effect_size": 0.4966579861111111,
+        "effect_magnitude": "large"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.6920225694444444,
+        "effect_size": 0.6920225694444444,
+        "effect_magnitude": "large"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 0.9958333333333333,
+        "effect_size": 0.9958333333333333,
+        "effect_magnitude": "large"
+      }
+    },
+    "baseline_no_isolation": {
+      "hourly_infections": {
+        "cliff_delta": 0.5770659722222222,
+        "effect_size": 0.5770659722222222,
+        "effect_magnitude": "large"
+      },
+      "hourly_deaths": {
+        "cliff_delta": 0.4831944444444444,
+        "effect_size": 0.4831944444444444,
+        "effect_magnitude": "large"
+      },
+      "hourly_commute_ratio": {
+        "cliff_delta": 0.0,
+        "effect_size": 0.0,
+        "effect_magnitude": "negligible"
+      },
+      "hourly_reward": {
+        "cliff_delta": 1.0,
+        "effect_size": 1.0,
+        "effect_magnitude": "large"
+      }
+    }
+  }
+}

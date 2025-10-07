@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="utf-8"><title>强化学习疫情控制策略可视化</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<style>
+body{font-family:Arial, sans-serif; margin:20px;}
+.container{display:flex; flex-wrap:wrap;}
+.chart-container{width:48%; margin:1%; height:400px;}
+.control-panel{width:100%; margin-bottom:20px; padding:10px; background:#f5f5f5; border-radius:5px;}
+button, select{margin:5px; padding:5px 10px;}
+.toggle-button{background:#4CAF50; color:#fff; border:none; border-radius:4px; cursor:pointer;}
+.toggle-button.active{background:#2E7D32;}
+</style></head>
+<body>
+<h1>强化学习疫情控制策略可视化系统</h1>
+<div class="control-panel">
+  <label>算法筛选:</label>
+  <select id="algorithm-filter"><option value="all">全部</option><option value="PPO">仅PPO</option><option value="A2C">仅A2C</option><option value="baseline">仅基线</option></select>
+  <label>时间窗口:</label><input type="range" id="time-window" min="0" max="480" value="480"><span id="time-value">480</span>
+  <button id="toggle-diff" class="toggle-button">切换差异模式</button>
+  <button id="toggle-log" class="toggle-button">切换对数比例</button>
+</div>
+<div class="container">
+  <div class="chart-container"><canvas id="c1"></canvas></div>
+  <div class="chart-container"><canvas id="c2"></canvas></div>
+  <div class="chart-container"><canvas id="c3"></canvas></div>
+  <div class="chart-container"><canvas id="c4"></canvas></div>
+</div>
+<script>
+let allData = {}, diffMode=false, logScale=false, baselineKey='baseline_original', timeWindow=480;
+async function loadData(){ const r=await fetch('results_data.json'); allData=await r.json(); update(); }
+function calcDiff(data){
+  if(!allData[baselineKey]) return data;
+  const base=allData[baselineKey]; const out={};
+  for(const k in data){ if(k===baselineKey) continue; out[k]={};
+    for(const m of ['hourly_infections','hourly_deaths','hourly_commute_ratio','hourly_reward']){
+      if(!data[k][m] || !base[m]) continue;
+      const n=Math.min(data[k][m].length, base[m].length);
+      const arr=[]; for(let i=0;i<n;i++){ const b=base[m][i]; const r=data[k][m][i]; const d=(Math.abs(b)>1e-12)?(r-b)/Math.abs(b):r; arr.push(Math.max(-1,Math.min(1,d))); }
+      out[k][m]=arr;
+    }
+  } return out;
+}
+function filterData(){
+  const f=document.getElementById('algorithm-filter').value; const out={};
+  for(const k in allData){
+    if(f==='all'|| (f==='PPO'&&k.includes('PPO')) || (f==='A2C'&&k.includes('A2C')) || (f==='baseline'&&k.includes('baseline'))){ out[k]=JSON.parse(JSON.stringify(allData[k])); }
+  } return out;
+}
+function update(){
+  let data = filterData();
+  if(diffMode) data = calcDiff(data);
+  for(const k in data){ for(const m in data[k]) data[k][m]=data[k][m].slice(0,timeWindow); }
+  draw('c1', data, 'hourly_infections', diffMode?'感染相对差异':'每小时感染数');
+  draw('c2', data, 'hourly_deaths', diffMode?'死亡相对差异':'每小时死亡数');
+  draw('c3', data, 'hourly_commute_ratio', diffMode?'通勤率相对差异':'每小时通勤率');
+  draw('c4', data, 'hourly_reward', diffMode?'奖励相对差异':'每小时奖励');
+}
+function draw(id, data, metric, title){
+  const ctx=document.getElementById(id).getContext('2d'); if(window[id]) window[id].destroy();
+  const ds=[]; const color=d3.scaleOrdinal(d3.schemeCategory10); let i=0;
+  for(const k in data){ if(data[k][metric]) ds.push({label:k,data:data[k][metric],borderColor:color(i),backgroundColor:color(i)+'33',borderWidth:k.includes('baseline')?2:1,pointRadius:0}); i++; }
+  window[id]=new Chart(ctx,{type:'line',data:{labels:Array(timeWindow).fill(0).map((_,i)=>i),datasets:ds},options:{responsive:true,plugins:{title:{display:true,text:title}},scales:{y:{type:(logScale&&!diffMode)?'logarithmic':'linear'},x:{}}}});
+}
+document.getElementById('algorithm-filter').addEventListener('change',update);
+document.getElementById('time-window').addEventListener('input',e=>{timeWindow=parseInt(e.target.value); document.getElementById('time-value').textContent=timeWindow; update();});
+document.getElementById('toggle-diff').addEventListener('click',function(){diffMode=!diffMode; this.classList.toggle('active'); update();});
+document.getElementById('toggle-log').addEventListener('click',function(){logScale=!logScale; this.classList.toggle('active'); update();});
+loadData();
+</script></body></html>

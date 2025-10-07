@@ -1,0 +1,22 @@
+{
+  "ppo_configs": [
+    {"learning_rate": 3e-4, "batch_size": 128, "ent_coef": 0.01, "n_steps": 2048, "n_epochs": 10, "clip_range": 0.2, "weight_set": "balanced"},
+    {"learning_rate": 1e-4, "batch_size": 64,  "ent_coef": 0.001, "n_steps": 4096, "n_epochs": 15, "clip_range": 0.1, "weight_set": "health_priority"},
+    {"learning_rate": 5e-4, "batch_size": 256, "ent_coef": 0.0,  "n_steps": 1024, "n_epochs": 5,  "clip_range": 0.3, "weight_set": "economic_priority"},
+    {"learning_rate": 2e-4, "batch_size": 128, "ent_coef": 0.02, "n_steps": 3072, "n_epochs": 5,  "clip_range": 0.25, "weight_set": "balanced_v2"},
+    {"learning_rate": 7e-4, "batch_size": 256, "ent_coef": 0.005,"n_steps": 1536, "n_epochs": 8,  "clip_range": 0.2, "weight_set": "health_v2"},
+    {"learning_rate": 2.5e-4,"batch_size": 256, "ent_coef": 0.01, "n_steps": 4096, "n_epochs": 6,  "clip_range": 0.15,"weight_set": "econ_v2"},
+    {"learning_rate": 1.5e-4,"batch_size": 64,  "ent_coef": 0.02, "n_steps": 2048, "n_epochs": 12, "clip_range": 0.2, "weight_set": "mix1"},
+    {"learning_rate": 4e-4, "batch_size": 128, "ent_coef": 0.005,"n_steps": 1024, "n_epochs": 20, "clip_range": 0.1, "weight_set": "mix2"}
+  ],
+  "a2c_configs": [
+    {"learning_rate": 7e-4, "ent_coef": 0.01, "vf_coef": 0.5, "n_steps": 5,  "max_grad_norm": 0.5, "weight_set": "balanced"},
+    {"learning_rate": 3e-3, "ent_coef": 0.1,  "vf_coef": 0.7, "n_steps": 10, "max_grad_norm": 1.0, "weight_set": "economic_priority"},
+    {"learning_rate": 1e-3, "ent_coef": 0.0,  "vf_coef": 0.5, "n_steps": 20, "max_grad_norm": 0.5, "weight_set": "health_priority"},
+    {"learning_rate": 5e-4, "ent_coef": 0.02, "vf_coef": 0.6, "n_steps": 8,  "max_grad_norm": 0.7, "weight_set": "mix1"},
+    {"learning_rate": 2e-3, "ent_coef": 0.0,  "vf_coef": 0.8, "n_steps": 15, "max_grad_norm": 1.0, "weight_set": "mix2"},
+    {"learning_rate": 8e-4, "ent_coef": 0.005,"vf_coef": 0.5, "n_steps": 5,  "max_grad_norm": 0.5, "weight_set": "mix3"},
+    {"learning_rate": 6e-4, "ent_coef": 0.02, "vf_coef": 0.6, "n_steps": 10, "max_grad_norm": 0.7, "weight_set": "mix4"},
+    {"learning_rate": 1.2e-3,"ent_coef": 0.0,  "vf_coef": 0.7, "n_steps": 20, "max_grad_norm": 1.0, "weight_set": "mix5"}
+  ]
+}
